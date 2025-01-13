@@ -25,7 +25,7 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: #0066cc;
 }
@@ -46,8 +46,10 @@ section {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('water-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('water-bg.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -55,6 +57,7 @@ section {
     align-items: center;
     text-align: center;
     color: white;
+    margin-top: 60px;
 }
 
 .hero h1 {
@@ -120,6 +123,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
     nav {
         flex-direction: column;
     }
