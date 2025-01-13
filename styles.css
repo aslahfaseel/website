@@ -46,7 +46,7 @@ section {
 }
 
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/water-bg.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('water-bg.jpg');
     background-size: cover;
     height: 100vh;
     display: flex;
